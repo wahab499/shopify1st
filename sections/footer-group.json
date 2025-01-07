@@ -1,0 +1,223 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "6c12f5ad-1f2b-4d5d-a59e-5931a27ed7cc": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Customer Care",
+            "menu": "footer"
+          }
+        },
+        "column_space_mkting": {
+          "type": "column_space",
+          "disabled": true,
+          "settings": {}
+        },
+        "link_list_NpdVgt": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "main-menu"
+          }
+        },
+        "3d7e2d8c-1b8e-4e2d-be90-97680e4c4ac5": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Our Policies",
+            "menu": "our-policies"
+          }
+        },
+        "link_list_J8ieBA": {
+          "type": "link_list",
+          "disabled": true,
+          "settings": {
+            "heading": "Quick Links",
+            "menu": ""
+          }
+        },
+        "contact_info_naU4Ym": {
+          "type": "contact_info",
+          "disabled": true,
+          "settings": {
+            "heading": "Connect with us",
+            "contact_address": "<ul class=\"foo\">\n<li>Customer Support Email: <a href=\"sales@jackethunter.com\">Info@Jackethunter.com</a>\n</li>\n<li><a href=\"https://jackethunter.com/apps/17TRACK\">Track Your Order</a></li>\n</ul><br>\n\n<h5>Social Links</h5>\n<a href=\"https://www.facebook.com/\"> <i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a><br>\n<a href=\"https://www.instagram.com/\"> <i class=\"fa-brands fa-square-instagram\"></i></a>"
+          }
+        },
+        "newsletter_6PU4RJ": {
+          "type": "newsletter",
+          "disabled": true,
+          "settings": {
+            "heading": "Newsletter",
+            "text": "<p>Be the first to know about new exclusive offers.</p>"
+          }
+        },
+        "link_list_PJaX9L": {
+          "type": "link_list",
+          "disabled": true,
+          "settings": {
+            "heading": "Help & Supprt",
+            "menu": ""
+          }
+        },
+        "about_us_YjiXa4": {
+          "type": "about_us",
+          "settings": {
+            "heading": "Contact Information",
+            "about_information": "<p><strong>Phone</strong>: +1 4062896767<br/><strong>Email</strong>: info@themodernjacket.com</p>",
+            "social_media": true
+          }
+        },
+        "about_us_dd8DTe": {
+          "type": "about_us",
+          "disabled": true,
+          "settings": {
+            "heading": "Business Information",
+            "about_information": "<p><strong>Business Name</strong>: Jacket Hunter LTD<br/><strong>Company Registration Number</strong>: 15929066</p><p><strong>Support Hours</strong>:<br/>Monday to Friday: 9:00 AM - 5:00 PM</p>",
+            "social_media": false
+          }
+        }
+      },
+      "block_order": [
+        "6c12f5ad-1f2b-4d5d-a59e-5931a27ed7cc",
+        "column_space_mkting",
+        "link_list_NpdVgt",
+        "3d7e2d8c-1b8e-4e2d-be90-97680e4c4ac5",
+        "link_list_J8ieBA",
+        "contact_info_naU4Ym",
+        "newsletter_6PU4RJ",
+        "link_list_PJaX9L",
+        "about_us_YjiXa4",
+        "about_us_dd8DTe"
+      ],
+      "settings": {
+        "snow_fall": false,
+        "container": "container-fluid",
+        "color_scheme": "inverse",
+        "column": "4",
+        "powered_by": "<p>The Modern Jacket</p>",
+        "enable_follow_on_shop": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_icons_type": "dynamic",
+        "payment_icons": "visa,master,american_express,discover,shopify_pay",
+        "padding_top": 80,
+        "padding_bottom": 35,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "mobile-navigation-bar": {
+      "type": "mobile-navigation-bar",
+      "blocks": {
+        "b4ee618f-91b9-432d-ac3c-8ae8426a3c81": {
+          "type": "home",
+          "settings": {
+            "title": "Home"
+          }
+        },
+        "b4266fdf-61ae-4506-8181-af0b645df7d2": {
+          "type": "search",
+          "settings": {
+            "title": "Search"
+          }
+        },
+        "a60d565d-bc06-4c7e-aaad-dd6b7c100cfe": {
+          "type": "link",
+          "settings": {
+            "title": "Shop",
+            "link": "shopify://collections/all"
+          }
+        },
+        "e2d2845d-c7e8-466a-a4d2-12c7d718d200": {
+          "type": "cart",
+          "settings": {
+            "title": "cart"
+          }
+        },
+        "42c37f7b-e2ef-4572-83af-fdd674fd9866": {
+          "type": "account",
+          "settings": {
+            "title": "account"
+          }
+        }
+      },
+      "block_order": [
+        "b4ee618f-91b9-432d-ac3c-8ae8426a3c81",
+        "b4266fdf-61ae-4506-8181-af0b645df7d2",
+        "a60d565d-bc06-4c7e-aaad-dd6b7c100cfe",
+        "e2d2845d-c7e8-466a-a4d2-12c7d718d200",
+        "42c37f7b-e2ef-4572-83af-fdd674fd9866"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "inverse"
+      }
+    },
+    "email-popup": {
+      "type": "email-popup",
+      "blocks": {
+        "6bff7e32-a1c3-40e7-b7b0-b6f2828a5441": {
+          "type": "heading",
+          "settings": {
+            "heading": "Exclusive benefits",
+            "heading_size": "h3"
+          }
+        },
+        "f8c0bbcb-d708-4cc1-ab84-cd1caa700308": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Sign up for our newsletter to be the first to learn about new arrivals, special promotions, and online exclusives.</p>"
+          }
+        },
+        "77395d1d-95ba-4bd1-af42-79086a37cfed": {
+          "type": "email_form",
+          "settings": {
+            "richtext": "<p>*By submitting this form, you agree to receive our emails and may unsubscribe at any time.</p>",
+            "button_full": false
+          }
+        }
+      },
+      "block_order": [
+        "6bff7e32-a1c3-40e7-b7b0-b6f2828a5441",
+        "f8c0bbcb-d708-4cc1-ab84-cd1caa700308",
+        "77395d1d-95ba-4bd1-af42-79086a37cfed"
+      ],
+      "disabled": true,
+      "settings": {
+        "display": "disable",
+        "show_home_page": true,
+        "show_visitors": true,
+        "delay": 5,
+        "dont_show": true,
+        "dont_show_button_label": "No Thanks!",
+        "expire": 7,
+        "popup_position": "center",
+        "popup_width": "medium",
+        "alignment": "left",
+        "corner_radius": false,
+        "image_position": "left",
+        "full--bg-image": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": ""
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "mobile-navigation-bar",
+    "email-popup"
+  ]
+}

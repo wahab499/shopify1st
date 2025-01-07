@@ -1,0 +1,79 @@
+    {% if section.settings.checkboxenable %}
+        <div style="text-align: {{ section.settings.positionselect }}">
+          {{ section.settings.textid }}
+        </div>
+    {% endif %}    
+        {% if section.settings.imagepicker %}              
+          <img src=" {{ section.settings.imagepicker | image_url: width: 600, height: 200  }}" />
+    {% endif %}
+    <div class="imagepicblock">
+      {% for block in section.blocks %}
+        <div class="gallery_item">
+          {% if block.settings.checkboxenablee %}
+            <img src="{{ block.settings.imageset | image_url: width: 400, height: 400 }}" />
+          {% endif %}
+        </div>
+        
+      {% endfor %}
+    </div>
+    
+{% schema %}
+  {
+    "name": "Practice Text Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "textid",
+        "label": "Enter Text",
+        "default": "I am Student of Liquid"
+      },
+      {
+        "type": "checkbox",
+        "id": "checkboxenable",
+        "label": "Show Text or Not",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "positionselect",
+        "label": "Align Text",
+        "options": [
+          { "value": "left", "label": "left" },
+          { "value": "center", "label": "center" },
+          { "value": "right", "label": "right" }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "image_picker",
+        "id": "imagepicker",
+        "label": "Select the Image"
+      }
+    ],
+     "blocks": [
+      {
+        "type": "gallery",
+        "name": "Gallery",
+        "settings": [
+          {
+            "type": "checkbox",
+        "id": "checkboxenablee",
+        "label": "Show Text or Not",
+        "default": true
+          },
+          {
+            "type": "image_picker",
+            "id": "imageset",
+            "label": "Image select",
+          }
+        ]        
+      }
+    ],    
+    "presets": [
+      {
+        "name": "Practice Text Section",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}

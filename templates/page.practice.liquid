@@ -1,0 +1,51 @@
+  
+
+{% assign abdul = "Rana Abdul Wahab" %}
+{{ abdul }}
+<br>
+{% assign num_one = 50 %}
+{% assign num_two = 190 %}
+{% assign num_three = 200 %}
+
+Number one {{ num_one }} <br>
+Number two {{ num_two }} <br>
+Number three {{ num_three }} <br>
+
+
+{% if num_one < num_two %}
+       {% if num_two < num_three %}
+        Biggest Number is {{ num_three }}
+         {% endif %}
+  {% elsif num_three < num_two %}
+         {% if num_two < num_one %}
+  Number two is less then number {{ num_two }}
+           {% endif %}
+  {% endif %}
+
+<br>
+
+  {% assign color = "black" %}
+  {% case color %}
+    {% when "red" %}
+    Wooooo Color is {{ color }}
+    {% when "black" %}
+    Woooo color is {{ color }} like Bilal
+    {% when "pink" %}
+    wooooo color is {{ color }} like bilal lips      
+    {% when "yellow" %}
+    wooo color is {{ color }} like bilal teeth      
+    {% else %}
+      none of above
+  {% endcase %}
+  <br>
+  
+
+  {% for i in (1..10) %}
+                {% if forloop.first %}
+                   This is first index <br>
+                  {% elsif forloop.last %}
+                   This is last index <br>
+                  {% else %}
+                The number is {{ i }} <br>
+                  {% endif %}
+  {% endfor %}
